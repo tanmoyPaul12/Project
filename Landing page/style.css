@@ -16,10 +16,38 @@ li{
     width: 90%;
     margin: auto;
 }
+
+/* learn display grid again */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .nav-container{
     padding: 20px 0;
 }
 .nav-container h2{
-    color: rgba(29, 29, 29, 0.8);
+    color: rgb(148, 48, 48);
 }
-.nav
+.nav-container .nav{
+    display: flex;
+    justify-self: flex-end;
+}
+.nav-container .nav a{
+    margin: 0 15px;
+    color: black
+}
+.nav-container .nav .active{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.header{
+    width: 80%;
+    margin: 70px auto;
+}
+.container img{
+    width: 100%;
+}
+.container div h3
+
