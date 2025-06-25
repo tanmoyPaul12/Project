@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+.nav-container{
+    padding: 20px 0;
+}
+.nav-container h2{
+    color: rgba(29, 29, 29, 0.8);
+}
+.nav
