@@ -47,7 +47,61 @@ li{
     margin: 70px auto;
 }
 .container img{
-    width: 100%;
+    width: 95%;
 }
-.container div h3
+.container div h3{
+    font-size: 70px;
+    font-family: Georgia;
+}
+.container div h3::after{
+    content: "";
+    position: absolute;
+    background:rgba(25,125,165);
+    height: 3px;
+    width: 130px;
+    top: 43%;
+    left: 15%;
+}
+.container div p{
+    margin: 30px 0;
+}
+.container div a{
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 15px;
+}
+.headphone{
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    opacity: 0.1;
+    z-index: -1;
+}
+.footer{
+    margin: 100px 0 0 0;
+    background-color: #333;
+    padding: 90px 90px;
+}
+.footer .main-container{
+    display:grid ;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+.main-container div h4{
+    color: rgb(94, 161, 161);
+    margin: 10px 0;
+}
+.main-container div li{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 2px 0;
+}
+hr{
+    margin:10px 0;
+    opacity: 0.3;
+}
+
 
