@@ -107,8 +107,6 @@ hr{
     opacity: 0.3;
 }
 
-
-
 .privacy{
     display:grid;
     grid-template-columns: repeat(2,1fr);
