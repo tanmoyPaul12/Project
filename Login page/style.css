@@ -16,7 +16,7 @@ body{
 }
 .container{
     width: 28%;
-    margin: 100px auto;
+    margin:100px auto ;
 }
 .header{
     font-weight: bold;
@@ -94,6 +94,7 @@ form input[type=submit]:hover{
     cursor: pointer;
 }
 .footer a{
+    position: absolute;
     float: right;
     color: var(--main-color);
     margin: 10px 0;
