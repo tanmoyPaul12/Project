@@ -19,6 +19,9 @@ body{
     margin: 100px auto;
 }
 .header{
+    font-weight: bold;
+    font-size: x-large;
+    color: var(--main-color);
     text-align: center;
 }
  
@@ -97,10 +100,13 @@ form input[type=submit]:hover{
 .footer a:hover{
     color: rgb(167, 20, 20);
 }
+
+
 .headphone{
+    width: 80%;
     position: absolute;
     top: -15%;
     left: 6%;
-    opacity: 0.4;
+    opacity: 0.37;
     z-index: -1;
 }
