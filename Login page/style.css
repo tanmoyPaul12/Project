@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: rgb(100, 31, 100);
+    --box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.34);
+    --hover-shadow:0px 4px 4px 0px rgba(0,0,0,0.561);
+    --nav-shadow:0px 0px 10px 0px rgba(0,0,0,0.100);
+    --light-black:#141c3a;
+}
+
+
+
+
+
+
+
+
+
