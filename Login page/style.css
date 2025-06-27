@@ -94,7 +94,6 @@ form input[type=submit]:hover{
     cursor: pointer;
 }
 .footer a{
-    position: absolute;
     float: right;
     color: var(--main-color);
     margin: 10px 0;
@@ -111,4 +110,15 @@ form input[type=submit]:hover{
     left: 6%;
     opacity: 0.37;
     z-index: -1;
+}
+
+
+.privacy{
+    clear: both;
+}
+.privacy{
+    color: rgb(0, 0, 0);
+}
+.privacy:hover{
+    color: rgb(138, 23, 190);
 }
