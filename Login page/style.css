@@ -117,6 +117,10 @@ form input[type=submit]:hover{
     clear: both;
 }
 .privacy{
+    display: flex;
+    justify-content: center;
+}
+.privacy{
     color: rgb(0, 0, 0);
 }
 .privacy:hover{
