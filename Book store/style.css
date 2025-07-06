@@ -1,0 +1,42 @@
+body{
+    margin: 30px;
+    background-color: antiquewhite;
+}
+.fig{
+     border: 1px ;
+    width: 400px;
+    font-size:xx-large ; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+.limited{
+     border: 1px ;
+    width: 400px;
+    font-size:xx-large ; 
+    font-family:cursive;
+    /* margin: auto; */
+}
+.b{
+    float: left;
+    margin-right: 10px;
+}
+.figu{
+    margin-bottom: 80px;
+}
+.di{
+    border: 5px solid;
+    font-size:  5em;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+
+#table{
+    border: 2px dotted;
+    font-size:x-large;
+    /* background-color: aquamarine; */
+    margin: auto;
+}
