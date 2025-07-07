@@ -30,6 +30,16 @@ img{
     width: 60%;
     margin: 20px auto;
 }
+.card div h4{
+    margin-top: 10px;
+}
+.card div p{
+    margin-bottom: 20px;
+}
+
+
+
+
 .buttom{
     background: #02d484;
     position:absolute;
@@ -43,8 +53,9 @@ img{
 }
 .card .images{
     display:flex;
-    width: 49%;
-    margin: 0 5%;
+    /* justify-content: space-around; */
+    width: 30%;
+    margin: 0 20%;
     margin-bottom: 40px ;
     
 }
@@ -54,7 +65,9 @@ img{
     padding: 10px;
     cursor: pointer;
 }
-
+.card .images img:hover{
+    box-shadow: 3px 5px 5px 1px rgba(0,0,0,0.2);
+}
 
 
 
