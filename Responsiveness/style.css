@@ -61,7 +61,7 @@ img{
     
 }
 .card .images img{
-    margin: 0 3px;
+    margin: 0 4px;
     border: 1px solid black;
     padding: 10px;
     cursor: pointer;
